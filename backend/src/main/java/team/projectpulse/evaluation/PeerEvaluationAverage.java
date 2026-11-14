@@ -74,7 +74,7 @@ public class PeerEvaluationAverage {
     }
 
     public List<String> getPublicComments() {
-        return publicComments == null ? null : new java.util.ArrayList<>(publicComments);
+        return publicComments == null ? new java.util.ArrayList<>() : new java.util.ArrayList<>(publicComments);
     }
 
     public void setPublicComments(List<String> publicComments) {
@@ -82,7 +82,7 @@ public class PeerEvaluationAverage {
     }
 
     public List<String> getPrivateComments() {
-        return privateComments == null ? null : new java.util.ArrayList<>(privateComments);
+        return privateComments == null ? new java.util.ArrayList<>() : new java.util.ArrayList<>(privateComments);
     }
 
     public void setPrivateComments(List<String> privateComments) {
@@ -90,7 +90,7 @@ public class PeerEvaluationAverage {
     }
 
     public List<RatingAverage> getRatingAverages() {
-        return ratingAverages == null ? null : new java.util.ArrayList<>(ratingAverages);
+        return ratingAverages == null ? new java.util.ArrayList<>() : new java.util.ArrayList<>(ratingAverages);
     }
 
     public void setRatingAverages(List<RatingAverage> ratingAverages) {
