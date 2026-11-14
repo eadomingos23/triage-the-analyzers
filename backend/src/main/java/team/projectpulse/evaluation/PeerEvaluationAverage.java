@@ -74,27 +74,27 @@ public class PeerEvaluationAverage {
     }
 
     public List<String> getPublicComments() {
-        return publicComments;
+        return publicComments == null ? null : new java.util.ArrayList<>(publicComments);
     }
 
     public void setPublicComments(List<String> publicComments) {
-        this.publicComments = publicComments;
+        this.publicComments = publicComments == null ? null : new java.util.ArrayList<>(publicComments);
     }
 
     public List<String> getPrivateComments() {
-        return privateComments;
+        return privateComments == null ? null : new java.util.ArrayList<>(privateComments);
     }
 
     public void setPrivateComments(List<String> privateComments) {
-        this.privateComments = privateComments;
+        this.privateComments = privateComments == null ? null : new java.util.ArrayList<>(privateComments);
     }
 
     public List<RatingAverage> getRatingAverages() {
-        return ratingAverages;
+        return ratingAverages == null ? null : new java.util.ArrayList<>(ratingAverages);
     }
 
     public void setRatingAverages(List<RatingAverage> ratingAverages) {
-        this.ratingAverages = ratingAverages;
+        this.ratingAverages = ratingAverages == null ? null : new java.util.ArrayList<>(ratingAverages);
     }
 
 }
