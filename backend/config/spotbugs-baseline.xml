@@ -28,12 +28,6 @@
   <Match><Class name="team.projectpulse.evaluation.PeerEvaluation"/><Method name="setEvaluatee" signature="(Lteam/projectpulse/student/Student;)V"/><Field name="evaluatee"/><Bug pattern="EI_EXPOSE_REP2"/></Match>
   <Match><Class name="team.projectpulse.evaluation.PeerEvaluation"/><Method name="setEvaluator" signature="(Lteam/projectpulse/student/Student;)V"/><Field name="evaluator"/><Bug pattern="EI_EXPOSE_REP2"/></Match>
   <Match><Class name="team.projectpulse.evaluation.PeerEvaluation"/><Method name="setRatings" signature="(Ljava/util/List;)V"/><Field name="ratings"/><Bug pattern="EI_EXPOSE_REP2"/></Match>
-  <Match><Class name="team.projectpulse.evaluation.PeerEvaluationAverage"/><Method name="getPrivateComments" signature="()Ljava/util/List;"/><Field name="privateComments"/><Bug pattern="EI_EXPOSE_REP"/></Match>
-  <Match><Class name="team.projectpulse.evaluation.PeerEvaluationAverage"/><Method name="getPublicComments" signature="()Ljava/util/List;"/><Field name="publicComments"/><Bug pattern="EI_EXPOSE_REP"/></Match>
-  <Match><Class name="team.projectpulse.evaluation.PeerEvaluationAverage"/><Method name="getRatingAverages" signature="()Ljava/util/List;"/><Field name="ratingAverages"/><Bug pattern="EI_EXPOSE_REP"/></Match>
-  <Match><Class name="team.projectpulse.evaluation.PeerEvaluationAverage"/><Method name="setPrivateComments" signature="(Ljava/util/List;)V"/><Field name="privateComments"/><Bug pattern="EI_EXPOSE_REP2"/></Match>
-  <Match><Class name="team.projectpulse.evaluation.PeerEvaluationAverage"/><Method name="setPublicComments" signature="(Ljava/util/List;)V"/><Field name="publicComments"/><Bug pattern="EI_EXPOSE_REP2"/></Match>
-  <Match><Class name="team.projectpulse.evaluation.PeerEvaluationAverage"/><Method name="setRatingAverages" signature="(Ljava/util/List;)V"/><Field name="ratingAverages"/><Bug pattern="EI_EXPOSE_REP2"/></Match>
   <Match><Class name="team.projectpulse.evaluation.Rating"/><Method name="&lt;init&gt;" signature="(Ljava/lang/Integer;Lteam/projectpulse/rubric/Criterion;Ljava/lang/Double;)V"/><Bug pattern="CT_CONSTRUCTOR_THROW"/></Match>
   <Match><Class name="team.projectpulse.evaluation.Rating"/><Method name="&lt;init&gt;" signature="(Lteam/projectpulse/rubric/Criterion;Ljava/lang/Double;)V"/><Bug pattern="CT_CONSTRUCTOR_THROW"/></Match>
   <Match><Class name="team.projectpulse.evaluation.Rating"/><Method name="getCriterion" signature="()Lteam/projectpulse/rubric/Criterion;"/><Field name="criterion"/><Bug pattern="EI_EXPOSE_REP"/></Match>
